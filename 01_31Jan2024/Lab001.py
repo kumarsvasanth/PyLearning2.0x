@@ -13,3 +13,8 @@ age = input("age")
 print(" your age is ", age)
 
 print(type(age))
+
+f = 10
+f2 = 20
+f3 = f2/f
+print(f3)
