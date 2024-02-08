@@ -2,4 +2,4 @@
 
 radius = float(input("user as to give radius"))
 area = float(3.14 * radius ** 2)
-print(area)
+print(f"area of circle is {area}")
