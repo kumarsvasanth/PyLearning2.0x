@@ -7,10 +7,8 @@ Use an if-else statement to make this determination
 Input = 2024
 Output = Leap Year"""
 
-year = 2024
-if year % 4 == 0:
-    print("2024 is a Leap Year")
-elif year % 100 == 0 and year % 400 == 0:
-    print("2024 is a Leap Year")
+year = 2004
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print(f"{year} is a Leap Year")
 else:
-    print("2024 is not a leap year")
+    print(f"{year} is not a leap year")
